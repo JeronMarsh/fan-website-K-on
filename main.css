@@ -1,0 +1,205 @@
+@font-face {
+    font-family: SourceSansPro-Regular; /* Имя шрифта */
+    src: url(fonts/SourceSansPro-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+
+
+   body {
+    font-family: SourceSansPro-Regular;
+    background-color: rgb(221, 223, 217);
+   }
+
+
+   header  {
+    
+    border-bottom: 2px solid #000;
+    
+   }
+
+   
+
+   h1 {
+    display: inline-block;
+    padding-left: 350px;
+  }
+   
+
+  
+
+   #under {
+    padding-left: 43px;
+    font-size: 22px;
+   }
+
+   #O_nas div {
+    font-size: 30px;
+    margin-left: 43px;
+   }
+
+   #O_nas p {
+    font-size: 18px;
+    margin-left: 43px;
+   }
+
+   ul {
+       list-style-type: square;
+   }
+
+   table {
+       width: 400px;
+       text-align: center;
+       margin:auto;
+       
+   }
+
+   
+
+   #table div {
+    font-weight:700;
+    font-size: 30px;
+    text-align: center;
+    
+   }
+   table,tr,td {
+       border: 3px solid black;
+       border-collapse: collapse;
+       width: 500px;
+   }
+   
+   caption {
+       caption-side:initial;
+   }
+
+   #menu article h3 {
+    text-align: center;
+   }
+
+   article img{
+    width: 100%;
+    height:100px;
+  }
+  
+  .article-image {
+    height: 200px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  
+
+  article {
+    vertical-align: top;
+    max-width: 23%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+    height:400px;
+    font-weight:400;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    
+    
+    
+    transition-delay: 3s;
+    transition: box-shadow 300ms;
+  
+  }
+
+ footer {
+     text-align: center;
+ }
+
+ #main_menu {
+    width:1200px;
+    margin:auto;
+    margin-top: 20px;
+    text-align:center;
+ }
+
+ .my-text{
+    margin-top: 100px;
+    max-height: 200px;
+    overflow:scroll;
+    overflow-x: hidden;
+    border:2px solid #000;
+    font-size: 22px;
+    
+    
+  }
+
+  
+  header::before{
+    content:url('files/img/mugi_smallest.jpg');
+    position: absolute;
+    top:40;
+    left:10;
+    
+  }
+
+
+  header::after{
+    content:url('files/img/UI_SMALLEST.jpg');
+    position: absolute;
+    top:1490;
+    left:10;
+    
+  }
+
+
+  .profile-menu {
+    list-style: none;
+    float: right;
+    margin-top: 33px;
+    margin-right: 20px;
+    padding-bottom: 100px;
+  }
+
+  .submenu {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #aaa;
+    background: #fff;
+    margin-top: 25;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+    position: absolute;
+    right: 10px;
+    display: none;
+  }
+
+  .submenu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    
+  }
+
+  .profile-menu-trigger {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    border: 1px solid #aaa;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+  }
+
+
+  .submenu a:hover {
+    background: rgb(233, 177, 137);
+  }
+
+  .profile-menu-trigger:hover {
+    background: rgb(233, 177, 137);
+  }
+
+  .submenu.active {
+    display: block;
+  }

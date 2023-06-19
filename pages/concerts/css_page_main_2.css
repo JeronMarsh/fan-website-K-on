@@ -1,0 +1,162 @@
+@font-face {
+    font-family: SourceSansPro-Regular; /* Имя шрифта */
+    src: url(../../fonts/SourceSansPro-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+   body {
+    font-family: SourceSansPro-Regular;
+    background-color: rgb(221, 223, 217);
+   }
+
+   header  {
+   
+    border-bottom: 2px solid #000;
+   }
+
+   h1 {
+    padding-left: 320px;
+    display: inline-block;
+   }
+
+   #under {
+    font-size: 22px;
+    text-align:left;
+    padding-left: 43px;
+   }
+
+
+section h2 {
+    font-size: 50px;
+    color: rgba(21, 26, 19, 0.925);
+    padding-left: 43px;
+}
+
+#Moscow {
+    width:auto;
+    height: auto;
+    background-color: gray;
+    line-height:3px;
+    
+}
+
+#Moscow div {
+    padding-top: 10px;
+    padding-left: 43px;
+    
+}
+
+#Moscow span {
+    font-size: 18px;
+}
+
+#Moscow a {
+    font-size: 28px;
+}
+
+#Moscow p {
+    font-size: 14px;
+}
+
+
+#Spb {
+    width:auto;
+    height: auto;
+    background-color: gray;
+    line-height:3px;
+}
+
+#Spb div {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-left: 43px;
+}
+
+#Spb span {
+    font-size: 18px;
+}
+
+#Spb a {
+    font-size: 28px;
+}
+
+#Spb p {
+    font-size: 14px;
+}
+
+#main_menu {
+    width:1200px;
+    margin:auto;
+    margin-top: 20px;
+    text-align:center;
+  }
+
+  .profile-menu {
+    list-style: none;
+    float: right;
+    margin-top: 33px;
+    margin-right: 20px;
+    padding-bottom: 100px;
+    padding-right: 17px;
+  }
+
+  .submenu {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #aaa;
+    background: #fff;
+    margin-top: 25;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+    position: absolute;
+    right: 10px;
+    display: none;
+  }
+
+  .submenu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    
+  }
+
+  .profile-menu-trigger {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    border: 1px solid #aaa;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+  }
+
+
+  .submenu a:hover {
+    background: rgb(233, 177, 137);
+  }
+
+  .profile-menu-trigger:hover {
+    background: rgb(233, 177, 137);
+  }
+
+  .submenu.active {
+    display: block;
+  }
+
+  #new_div {
+    display: block;
+    width:auto;
+    height: auto;
+    background-color: gray;
+    line-height:3px;
+    padding-left: 45;
+    margin-top: 60;
+    padding-top: 5;
+    font-size: 25;
+
+ 
+
+  }

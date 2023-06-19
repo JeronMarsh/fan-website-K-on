@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Расписание концертов</title>
+        <script>
+            
+            
+             function save() {
+            var list = [];
+            var key = document.getElementById("key").value;
+            var value1 = document.getElementById("value1").value;
+            var RARE1 = localStorage.setItem(key,value1);
+           
+            
+        }
+
+            function delete_() {
+                localStorage.clear();
+            }
+
+            function delete__() {
+                var key2 = document.getElementById("key2").value;
+                localStorage.removeItem(key2);
+            }
+
+
+
+
+            function show() {
+                console.log(localStorage);
+            }
+
+            function show_ind() {
+                var key3 = document.getElementById("ind").value;
+                console.log(localStorage.key(key3));
+                
+            }
+
+            function show_ind2() {
+                var key4 = document.getElementById("data").value;
+                console.log(localStorage.getItem(key4));
+            }
+
+        </script>
+        <link rel="stylesheet" href="css_page_main_2.css" />
+    </head>
+    <body>
+        <ul class="profile-menu">
+            <li><a href="../../index.html" class="profile-menu-trigger" data-trigger="dropdown">Главное меню</a>
+                <ul class="profile-submenu submenu">
+                    <li><a href="../../index.html">Главная страница</a></li>
+                    <li><a href="../composition/page_main1.html">Состав группы</a></li>
+                    <li><a href="#">Расписание концертов</a></li>
+                    <li><a href="../Content/page_main3.html">Контент</a></li>
+                    <li><a href="../Feedback/page_main4.html">Обратная связь</a></li>
+                </ul>
+            
+            </li>
+
+        </ul>
+        
+        <header>
+        <h1>Расписание концертов группы K-on!</h1>  
+        </header>
+
+        <div id="under">
+            <p>Здесь вы можете узнать о будущих концертах и купить билеты</p>
+            <p>Для покупки билета нужно написать ваше имя, email, номер телефона и нажать кнопку отправить</p>
+        </div>
+
+        <main>
+            <section>
+                <h2>Афиша</h2>
+                <br />
+
+                <article id="Moscow">
+                    <div>
+                        <span>26.11.2021</span>
+                        <a href="#"><h3>Москва(презентация нового альбома)</h3></a>
+                        <p>Adrenaline Stadium</p>
+                        <p>Москва</p>
+                        <br />
+
+                       
+                            Введите имя:
+                            <input id="key" name="text" type="text" required>
+                            <br /><br />
+                            Введите email:
+                            <input id="value1" name="email" type="email" required>
+                            <br /><br />
+                            
+                            <br /><br />
+                            <input onclick="save()" type="submit" value="Отправить">
+
+                            
+
+
+                            
+                       
+
+         
+
+                        
+                    </div>
+                    <br />
+                </article>
+
+                <div id="new_div">
+                            <p>Удалить все данные</p>
+                            <input onclick="delete_()" type="submit" value="Удалить все данные">
+
+                            <p>Удалить данные по ключу</p>
+
+                            <input id="key2" name="text" type="text" placeholder="введи имя" required>
+
+                            <input onclick="delete__()" type="submit" value="Удалить данные по ключу">
+
+                            <p>Показать localStorage</p>
+                            <input onclick="show()" type="submit" value="Показать">
+
+                            <p>Получить ключ по заданной позиции</p>
+                            <input id="ind" name="text" type="text" placeholder="введи номер позиции" required>
+                            <input onclick="show_ind()" type="submit" value="Показать">
+
+                            <p>Получить данные по ключу</p>
+                            <input id="data" name="text" type="text" placeholder="введи название ключа" required>
+                            <input onclick="show_ind2()" type="submit" value="Показать">
+
+
+                </div>
+                <!-- <br /><br /><br />
+                <article id="Spb">
+                    <div>
+                        <span>20.05.2022</span>
+                        <a href="#"><h3>Санкт-Петербург</h3></a>
+                        <p>СК Юбилейный</p>
+                        <p>Санкт-Петербург</p>
+                    
+                    <br />
+
+                    
+                        Введите имя:
+                        <input id="key2" name="text" type="text" required >
+                        <br /><br />
+                      
+                        <br /><br />
+                        Введите номер:
+                        <input id="value2" name="tel1" type="tel" pattern="8[0-9]{10}" required>
+                        <br /><br />
+                        <input onclick="save2()" type="submit" value="Отправить">
+
+                        <input onclick="delete_()" type="submit" value="Удалить данные выборочно">
+                   
+                    </div>
+                    <br / > -->
+
+                    
+
+                </article>
+            </section>
+
+           
+           
+        </main>
+     
+
+        <footer>
+            
+        </footer>
+
+        <script charset="utf-8" src="../../JS/jquery-3.6.0.js"></script>
+        <script charset="utf-8" src="../../JS/JS_MAIN.js"></script>
+    </body>
+</html>
+

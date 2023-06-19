@@ -1,0 +1,144 @@
+@font-face {
+    font-family: SourceSansPro-Regular; /* Имя шрифта */
+    src: url(../../fonts/SourceSansPro-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+   body {
+    font-family: SourceSansPro-Regular;
+    background-color: rgb(221, 223, 217);
+   }
+
+   header {
+    border-bottom: 2px solid #000;
+   }
+   h1 {
+    padding-left: 240px;
+    display: inline-block; 
+   }
+
+   #under{
+    font-size: 22px;
+    text-align:left;
+    padding-left: 43px;
+   }
+
+   .textinput {
+	border: 1px solid #666;
+	height: 300px;
+	padding: 0 15px;
+	font-size: 18px;
+	width: 600px;
+	margin: 0 0 10px 0;
+}
+
+   .textinput:focus {
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+    .textbutton {
+        display: block;
+        width: 300px;
+        height: 30px;
+        background-color: #666;
+        font-size: 18px;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0 30px 0;
+    }
+
+    .textbutton:hover {
+        background-color: #333;
+        color: rgb(187, 187, 111);
+    }
+    
+    .textbutton:active {
+        background-color: #eee;
+        
+    }
+
+    main div {
+        font-size: 22px; 
+        margin-top: 60px;
+    }
+
+    #rad_input {
+        display: block;
+        width: 300px;
+        height: 30px;
+        background-color: #666;
+        font-size: 18px;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0 30px 0;
+    }
+
+    #rad_input:hover {
+        background-color: #333;
+        color: rgb(187, 187, 111);
+    }
+
+    #rad_input:active {
+        background-color: #eee;
+    }
+
+    #main_menu {
+        width:1200px;
+        margin:auto;
+        margin-top: 20px;
+        text-align:center;
+      }
+    
+      .profile-menu {
+        list-style: none;
+        float: right;
+        margin-top: 33px;
+        margin-right: 20px;
+        padding-bottom: 100px;
+      }
+    
+      .submenu {
+        list-style: none;
+        padding: 0;
+        border: 1px solid #aaa;
+        background: #fff;
+        margin-top: 25;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+        position: absolute;
+        right: 10px;
+        display: none;
+      }
+    
+      .submenu a {
+        text-decoration: none;
+        display: block;
+        padding: 10px 30px;
+        color: #333;
+        text-shadow: none;
+        font-weight: 700;
+        
+      }
+    
+      .profile-menu-trigger {
+        text-decoration: none;
+        display: block;
+        padding: 10px 30px;
+        color: #333;
+        text-shadow: none;
+        font-weight: 700;
+        border: 1px solid #aaa;
+        background: #fff;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+      }
+    
+    
+      .submenu a:hover {
+        background: rgb(233, 177, 137);
+      }
+    
+      .profile-menu-trigger:hover {
+        background: rgb(233, 177, 137);
+      }
+    
+      .submenu.active {
+        display: block;
+      }

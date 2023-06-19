@@ -1,0 +1,144 @@
+@font-face {
+    font-family: SourceSansPro-Regular; /* Имя шрифта */
+    src: url(../../fonts/SourceSansPro-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+   body {
+    font-family: SourceSansPro-Regular;
+    background-color: rgb(221, 223, 217);
+   }
+
+    h1 {
+    
+    padding-left: 400px;
+    display: inline-block;
+   }
+
+   header {
+    border-bottom: 2px solid #000;
+   }
+
+   #describe {
+    font-size: 22px;
+    text-align:left;
+    padding-left: 43px;
+   }
+
+ 
+
+#UIRITSUMIO {
+    vertical-align: top;
+    max-width: 26%;
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+    height:800px;
+    font-weight:400;
+   
+    
+}
+
+#UIRITSUMIO a, #UIRITSUMIO p {
+    text-align: center;
+}
+
+#MUGIADZU{
+    
+    vertical-align: top;
+    max-width: 30%;
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+    height:500px;
+    font-weight:400;
+    padding-right: 50px;
+
+  
+    
+}
+
+
+
+
+
+
+
+#MUGIADZU a, #MUGIADZU p {
+    text-align: center;
+}
+
+
+
+.wall-image {
+    margin: auto;
+    height: 400px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  #MUGIADZU2 {
+    text-align:center;
+  }
+
+  #main_menu {
+    width:1200px;
+    margin:auto;
+    margin-top: 20px;
+    text-align:center;
+  }
+
+  .profile-menu {
+    list-style: none;
+    float: right;
+    margin-top: 33px;
+    margin-right: 20px;
+    padding-bottom: 100px;
+  }
+
+  .submenu {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #aaa;
+    background: #fff;
+    margin-top: 25;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+    position: absolute;
+    right: 10px;
+    display: none;
+  }
+
+  .submenu a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    
+  }
+
+  .profile-menu-trigger {
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    color: #333;
+    text-shadow: none;
+    font-weight: 700;
+    border: 1px solid #aaa;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .3);
+  }
+
+
+  .submenu a:hover {
+    background: rgb(233, 177, 137);
+  }
+
+  .profile-menu-trigger:hover {
+    background: rgb(233, 177, 137);
+  }
+
+  .submenu.active {
+    display: block;
+  }
